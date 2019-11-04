@@ -1,0 +1,42 @@
+
+
+
+
+
+Midday short term report - Test
+
+Elviz midday report Status - Get all morning price curves to generate new midday price curves
+
+Server name: 
+(Production) EDAAPP13
+(Test) TSTELVIZ03 
+
+Curve import folder path:
+(Production) \\EDAAPP13\Elviz\Integration\CurveImport\Authorised\Processed
+(Test) \\tstelviz03.edtest.dk\BradyETRM\Integration\CurveImport\Authorised
+
+Access to Elviz Test. IT support Ticket created on 2019-11-04 11:30
+
+
+
+
+Test report date: friday 2019-11-01
+
+Power curves from Stefan:
+AT, BE, CH, CZ, DE, DE-AT, DK1, DK2, EE, ES, FI, FR, GR, HU, LV, NL, NO1, NO2, NO3, NO4, NO5, PL, PUN, RO, RS, SE1, SE2, SE3, SE4, SI, SK, SP1, UK, UK-EUR
+
+
+Other curves: 
+
+
+
+
+
+
+
+
+
+
+
+
+
