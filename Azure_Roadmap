@@ -2,4 +2,12 @@
 Azure Roadmap  
  - What solutions have we made for getting data into database:
  
+ - What kind of database structur have we decided to use (naming,Sceams,datasouces,externaldatabase etc)
  
+ - How do we control user acces
+ 
+ - Where are we running programs (WM,Docer,cubinate)
+ 
+ - How are we going to show the data for the traders
+ 
+ - How are the traders putting in new input
