@@ -1,4 +1,4 @@
-Microsoft Cloud Adoption Plan
+Microsoft Cloud Adoption Plan (Phase 1)
 
 2019-11-04
 
@@ -12,6 +12,7 @@ Why do you want to adopt the cloud?
 We want to have a more flexible IT setup, and be able to to create and manage resources ourselves. 
 We want price transparency, and be able to take IT decisions based on the actual cost.
 We want to be able to run anywhere. (Plug and play)
+Innovate and modernize current application (Excel), to fit into a cloud setup.
 
 
  - Business outcomes
@@ -19,9 +20,31 @@ We want to be able to run anywhere. (Plug and play)
 What are the expected business outcomes from adopting the cloud?
 
 High Priority:
+Agility - Time-to-market
 
 Mid Priority:
 
+Agility outcomes:
+Cycle time is a Six Sigma term that refers to the duration from the start to finish of a function.
+
+Performance outcomes:
+Reliability(Trade collectors uptime (Phase 2))
+Performance(Be able to schedule large data integrations and calculations outside business peak hours). 
+ 
 Low Priority:
+
+(Normally we don't do Low priority project, due to lack of resources.
+
+
+		Business justification
+
+We have a full responsibility and availability over hour IT resources
+
+
+		First adoption project
+		
+List of excel sheet based on data from databases and output from R code. (TODO)
+
+
 
 
