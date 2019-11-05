@@ -65,3 +65,14 @@ Simon Brejnebjerg Jensen
 Lars Normann Lund
 
 
+		Plan
+		
+- Digital estate
+
+Application/Workload;Business Unit;Business Priority (high, mid, low);Proposed Rationalization
+Trayport MarketTrades;Energy Commodity;high;Rearchitect
+R code running from edanalytics02;MarketAnalytic;high;Rehost/Refactor
+PointConnect;MarketAnalytic;High;Rebuild
+MKOnline;MarketAnalytic;High;Rebuild
+
+
