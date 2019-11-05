@@ -5,9 +5,19 @@
 Azure Road-map (Phase 1) 
  - What solutions have we made for getting data into database:
  
- - What kind of database structure have we decided to use (naming,Schemas, data sources, external database etc)
+ 
+ 
+ - What kind of database structure have we decided to use (Naming, Schemas, Data sources, External database etc)
+ 
+ 
  
  - How do we control user access
+ 
+ Azure Portal - All user should use two-factor authentication.
+ Should we use Azure active directory? Should we use our own domain, to avoid delays for IT-Operation?
+ Azure Database Access - Create a document with best practice
+ Azure Database Access - Create a document with best practice
+ 
  
  - Where are we running programs (WM, Docker, Kubernetes)
  
