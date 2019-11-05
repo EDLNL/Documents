@@ -21,6 +21,7 @@ What are the expected business outcomes from adopting the cloud?
 
 High Priority:
 Agility - Time-to-market
+Scalability
 
 Mid Priority:
 
@@ -36,15 +37,31 @@ Low Priority:
 (Normally we don't do Low priority project, due to lack of resources.
 
 
-		Business justification
+- Business justification
 
 We have a full responsibility and availability over hour IT resources
 
 
-		First adoption project
+- First adoption project
 		
 List of excel sheet based on data from databases and output from R code. (TODO)
 
 
+- Key stakeholders
+
+Kell Pradsgaard Nielsen
+Simon Brejnebjerg Jensen
+Lars Normann Lund
+Siamak Shamaee
+Rami Jibreel
+Kasper Kørup Trosborg
+Gustav Sigen Ploug-Sørensen
+
+
+- Cloud Strategy Team
+		
+Kell Pradsgaard Nielsen
+Simon Brejnebjerg Jensen
+Lars Normann Lund
 
 

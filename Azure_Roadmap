@@ -2,21 +2,23 @@
 
 
 
-Azure Roadmap (Phase 1) 
+Azure Road-map (Phase 1) 
  - What solutions have we made for getting data into database:
  
- - What kind of database structur have we decided to use (naming,Sceams,datasouces,externaldatabase etc)
+ - What kind of database structure have we decided to use (naming,Schemas, data sources, external database etc)
  
- - How do we control user acces
+ - How do we control user access
  
  - Where are we running programs (WM, Docker, Kubernetes)
  
  
  
  
- - How are we going to show the data for the traders
+ - How are we going to show the data for the traders (Talk to Cloud Solution Architect and data specialist)
+ Power BI 
+ Oracle Cloud Analytics
  
- - How are the traders putting in new input
+ - How are the traders putting in new input (SAA)
  
  
  
