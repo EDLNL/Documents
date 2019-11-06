@@ -32,9 +32,7 @@ Performance outcomes:
 Reliability(Trade collectors uptime (Phase 2))
 Performance(Be able to schedule large data integrations and calculations outside business peak hours). 
  
-Low Priority:
-
-(Normally we don't do Low priority project, due to lack of resources.
+Low Priority: (Normally we don't do Low priority project, due to lack of resources.
 
 
 - Business justification
@@ -44,7 +42,7 @@ We have a full responsibility and availability over hour IT resources
 
 - First adoption project
 		
-List of excel sheet based on data from databases and output from R code. (TODO)
+List of excel sheet based on data from Azure SQL databases and output from R code. (TODO)
 
 
 - Key stakeholders
@@ -75,4 +73,7 @@ R code running from edanalytics02;MarketAnalytic;high;Rehost/Refactor
 PointConnect;MarketAnalytic;High;Rebuild
 MKOnline;MarketAnalytic;High;Rebuild
 
+
+
+- Database structure have we decided to use (Naming, Schemas, Data sources, External database etc)
 

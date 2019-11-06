@@ -4,10 +4,24 @@
 
 Azure Road-map (Phase 1) 
  - What solutions have we made for getting data into database:
+
+List of current Azure resources
+
+RESOURCE GROUP
+azurefunctionsiamak
+dashboards
+defaultresourcegroup-weu
+dsvmai
+dsvmai01
+intraday
+pointconnectftplive
+pricemodel
+trading
  
  
- 
- - What kind of database structure have we decided to use (Naming, Schemas, Data sources, External database etc)
+- What kind of database structure have we decided to use (Naming, Schemas, Data sources, External database etc)
+
+
  
  
  
@@ -18,8 +32,17 @@ Azure Road-map (Phase 1)
  Azure Database Access - Create a document with best practice
  Azure Database Access - Create a document with best practice
  
+- Organize Azure resources
+
+Management groups
+Subscriptions
+Resource groups
+Resources
+
  
- - Where are we running programs (WM, Docker, Kubernetes)
+- Where are we running programs (WM, Docker, Kubernetes, Azure Functions)
+ 
+ How should we deploy docker containers?
  
  
  
@@ -32,10 +55,19 @@ Azure Road-map (Phase 1)
  
  
  
- 
+ TODO:
 
  
+Questions 
+File-share in Azure/Sharepoint?
+How are we going to show the data for the traders, and how are the traders putting in new input? (Talk to Cloud Solution Architect and data specialist)
 
+
+Tasks:
+Organize Azure resources and apply correct naming and security. (Management groups, Subscriptions, Resource groups and )
+
+Review our current Azure sql setup.
+ 
  
  
  
