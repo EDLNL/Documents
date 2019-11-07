@@ -16,6 +16,9 @@ Where are we going to deploy Docker containers.
 
 Application logging in Azure. (Log Analytics, Azure Files or etc.)
 
+Should we use common storage
+
+
 
 - Proof of concept:
 
@@ -31,6 +34,7 @@ Review our current Azure sql setup.
 
 Create a List of excel sheet we should moved to the cloud in Phase 1. Add to the list all resources these sheets uses.
 
+
 Move Trayport Market Trade Collector to a container and deploy it to Azure
 
 Create database backup at test how to get things up running.
@@ -40,4 +44,71 @@ Azure Database Access - Create a document with best practice and apply the conce
 Azure Portal - All user should use two-factor authentication - Apply this as default.
 
 
- 
+
+
+
+
+Step (1) Proof of concept (Week 46)
+- Tasks:
+	Deploy R and C# Docker Container to Azure - Where are we going to deploy Docker containers?
+	How are we going to show the data for the traders, and how are the traders putting in new input? (Talk to Cloud Solution Architect and data specialist)
+
+
+Step (2) Review SQL Setup (Week 47 + 48)
+- Tasks:
+	Review our current Azure sql setup.
+	Azure Database Access - Create a document with best practice and apply the concept on our current setup.
+	How do we control user access to Azure SQL database?
+	Should we use Azure active directory? Should we use our own domain, to avoid delays for IT-Operation?
+	Create database backup at test how to get things up running.
+
+
+Step (3) Clean Up (Week 47 + 48)
+- Tasks: 
+	Organize Azure resources and apply correct naming and security. (Management groups, Subscriptions, Resource groups and )
+	Azure Portal - All user should use two-factor authentication - Apply this as default.
+
+
+Step (4) Logging and Storage (Week 49)
+- Tasks: 
+	Application logging in Azure. (Log Analytics, Azure Files or etc.)
+	Should we use common storage
+	File-share in Azure/Sharepoint?
+
+	
+Step (5) Containers and functions (Week 50)
+- Tasks: 
+	Create a List of excel sheet we should moved to the cloud in Phase 1. Add to the list all resources these sheets uses.
+	Create R containers to create data the Excel sheets in phase 1
+	Move Trayport Market Trade Collector (C# - .Net Core) to a container
+	Deploy all containers
+	Make sure all functions are running
+
+
+Step (6) Reports (Week 51 + 52)
+- Tasks: 
+	Create reports matching all Excel sheets. Use the presentation tool for Step (1)
+
+
+Step (7) Uptime and backup (Week 1)
+- Tasks: 
+	What is the expected uptime for the database, containers, functions and reports etc.
+	Setup backup for all recourses
+	Rebuild the recourses from backup
+		
+
+Step (8)Implement the new cloud solution (Week 2 + 3)
+- Tasks: 
+	Create access for all users
+	Apply logging for all solutions
+
+
+Step (9) Cost analysis (Week 3)
+- Tasks: 
+	Analyze cost
+
+
+We are up and running with Phase 1 medio January 2020
+
+
+
