@@ -3,20 +3,9 @@
 
 
 Azure Road-map (Phase 1) 
- - What solutions have we made for getting data into database:
+ - What solutions have we made for getting data into database: (See Digital estate)
 
-List of current Azure resources
 
-RESOURCE GROUP
-azurefunctionsiamak
-dashboards
-defaultresourcegroup-weu
-dsvmai
-dsvmai01
-intraday
-pointconnectftplive
-pricemodel
-trading
  
  
 - What kind of database structure have we decided to use (Naming, Schemas, Data sources, External database etc)
@@ -30,7 +19,7 @@ trading
  Azure Portal - All user should use two-factor authentication.
  Should we use Azure active directory? Should we use our own domain, to avoid delays for IT-Operation?
  Azure Database Access - Create a document with best practice
- Azure Database Access - Create a document with best practice
+
  
 - Organize Azure resources
 
@@ -53,27 +42,36 @@ Resources
  
  - How are the traders putting in new input (SAA)
  
- 
- 
- TODO:
+  
+ List of current Azure resources
 
+RESOURCE GROUP
+azurefunctionsiamak
+dashboards
+defaultresourcegroup-weu
+dsvmai
+dsvmai01
+intraday
+pointconnectftplive
+pricemodel
+trading
  
-Questions 
-File-share in Azure/Sharepoint?
-How are we going to show the data for the traders, and how are the traders putting in new input? (Talk to Cloud Solution Architect and data specialist)
+ 
+
+The Database setup consist of 5 layers: 
+ 
+1st layer holds all bulk tables, merge statements etc. No data is stored here.
+
+2nd layer holds stuff that is widely used across the databases. UTC to CET table, holiday calendar along with mapping and meta data for the databases etc. 
+
+3rd layer is the external data layer. Here we store external data from various sources (PC, WS, EM, Tesla etc.). All data in the same format. 
+
+4th layer is the working layer. Here each of the departments has their own database that may be structured however you like. Is used for working with the data, not for storing or showing to the end user.  
+
+5th layer is the model output layer. Here we store everything needed for models in operation. E.g. the Price Model , Einsman Model etc … 
 
 
-Tasks:
-Organize Azure resources and apply correct naming and security. (Management groups, Subscriptions, Resource groups and )
 
-Review our current Azure sql setup.
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+
+
+
