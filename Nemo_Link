@@ -1,1 +1,89 @@
 Nemo Link
+
+Britnet - nationalgrid - Nemo Link - Rte
+
+Regional Nomination Platform
+
+
+Unicorn © 2017 – Unicorn Systems a.s.
+Jankovcova 1037/49, CZ – 170 00  Prague 7
+
+Project:		Regional Nomination Platform
+
+Project – Subject:		
+				Engineering Project
+
+Document Title:	WebService Interface
+
+		
+Author:			Jaroslav Drencak, Ondrej Koller, Ladislav Velek
+		
+Contact:		E-mail: info@unicorn.com
+Tel.: 			(+420) 221 400 111
+
+
+Damas RNP Web Service interface by an RNP user who wishes to Nominate. 
+Web services are built on industry standard technologies. 
+They are available on the Internet and ensure the same level of the privacy and security as RNP Damas web site.
+
+
+Interface of Damas Web Services
+
+Production:	https://rnp.unicorn.com/DamasService2.svc		https	443
+
+Test:		https://rnp-test.unicorn.com/damasservice2.svc		https	443
+			NOTE: this environment is internal test environment for Interconnector Operators
+
+Train:		https://rnp-train.unicorn.com/DamasService2.svc		https	443
+			NOTE: this environment is intended for Interconnector Customers for integration testing
+
+
+
+
+
+
+
+Business Terms and Definitions
+
+Balance Responsible Party (BRP):
+A party that has a contract proving financial security and identifying balance responsibility with the Imbalance Settlement Responsible of the Market Balance Area entitling the party to operate in the market. This is the only role allowing a party to nominate energy on a wholesale level
+
+DAMAS:
+The Regional Nomination Platform solution is based on Unicorn System´s Damas platform – version 5.1 
+
+ENTSO-E) EDI:
+(ENTSO-E) Electronic Data Interchange (EDI) standards 
+https://www.entsoe.eu/publications/electronic-data-interchangeedi-library/Pages/default.aspx  
+
+ENTSO-E:
+The European Network of Transmission System Operators, as established by Regulation (EC) n°714/2009, which currently represents 42  electricity transmission system operators (TSOs) from 35 countries
+
+ITR:
+Interconnector Trade Responsible
+
+Nominator:
+The Nominator can nominate the capacity up to the level of the allocated Transmission Rights of the considered Rights Holder
+
+RNP:
+Regional Nomination Platform (this System)
+
+SOAP:
+Simple Object Access Protocol. Messaging protocol specification for exchanging structured information in the implementation of web services in computer networks. Its purpose is to induce extensibility, neutrality and independence. It uses XML Information Set for its message format, and relies on application layer protocols, most often Hypertext Transfer Protocol (HTTP) or Simple Mail Transfer Protocol (SMTP), for message negotiation and transmission
+
+SSL:	
+Secures Sockets Layer : Cryptographic protocol that provide communications security over a computer network
+
+WS:
+Web services are applications whose logic and functions are accessible using the standard Internet protocols and data formats, such as Hypertext Transfer Protocol (HTTP) and Extensible Markup Language (XML).
+
+WSDL:
+Web Services Description is an XML-based interface definition language that is used for describing the functionality offered by a web service
+
+WSS:
+Web Services Security (WS-Security, WSS) is an extension to SOAP to apply security to Web services
+
+XML:
+Extensible Markup Language (XML) is a markup language that defines a set of rules for encoding documents in a format that is both human-readable and machine-readable
+
+XSD:
+XML Schema Definition, a recommendation of the World Wide Web Consortium (W3C), specifies how to formally describe the elements in an Extensible Markup Language (XML) document
